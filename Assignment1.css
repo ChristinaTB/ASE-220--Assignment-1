@@ -4,7 +4,7 @@ p {
 }
 .my_name
 {
-    font-size: 70pt;
+    font-size: 80pt;
     text-align: center;
     font-weight: lighter;
     color: wheat;
@@ -19,6 +19,13 @@ a.nav-link
     
 }
 
+.main
+{
+    height:100vh;
+    z-index: -999;
+    border-right: wheat 1em solid;
+    border-left: wheat 1em solid; 
+}
 .card-img-top
 {
     height: 250px !important;
